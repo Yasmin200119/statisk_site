@@ -14,7 +14,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(255, 255, 255);
+  background-color: #9ea892;
   color: #000000;
   padding: 20px;
 }
@@ -25,11 +25,20 @@ h2 {
   text-align: center;
   margin: 10px;
   margin-bottom: 20px;
-  color: #333;
+  color: black;
 }
 
-a {
-  color: rgb(0, 0, 0);
+.back-to-categories {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #dcd6ca;
+  color: black;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* ===================================================== */
@@ -78,7 +87,7 @@ a.category-link {
 }
 
 .product {
-  background-color: #ffffff;
+  background-color: #dcd6ca;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   overflow: hidden;
@@ -117,6 +126,29 @@ a.category-link {
   font-weight: bold;
 }
 
+.sort-btn {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #dcd6ca;
+  color: black;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-btn {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #dcd6ca;
+  color: black;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 /* ===================================================== */
 /* ========== PRODUCT.HTML / PRODUCT CARD ============== */
 /* ===================================================== */
@@ -128,7 +160,7 @@ a.category-link {
 
   max-width: 400px;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #dcd6ca;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   padding: 20px;
